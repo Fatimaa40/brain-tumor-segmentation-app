@@ -2,6 +2,8 @@
 
 A deep learning project that performs **pixel-level segmentation** of brain tumors from MRI scans using a U-Net convolutional neural network, trained with a **Tversky Loss** function to handle severe class imbalance.
 
+🔗 **[Try the live demo here](https://brain-tumor-segmentation-app-cdt8nfptsgzz8a2wymnf3y.streamlit.app/)** — upload an MRI scan and see the model predict the tumor region in real time.
+
 ---
 
 ## 📸 Results Preview
@@ -99,6 +101,8 @@ Standard losses (like plain Dice or Binary Cross-Entropy) tend to under-predict 
 ---
 
 ## 🚀 How to Run
+
+> 💡 **Fastest way to try it:** just use the [live demo](https://brain-tumor-segmentation-app-cdt8nfptsgzz8a2wymnf3y.streamlit.app/) — no setup needed. The steps below are only for running it locally.
 
 ```bash
 # 1. Clone the repository
